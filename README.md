@@ -14,5 +14,5 @@ Used files for face detection:
 
 
 Summary of the code:
-Video captured is accessed frame by frame and face is detected using haarcascade_frontalface_default cascade, then for every face detected mouth is detected by using
-haarcascade_mcs_mouth. If mouth is detected for the respective face then a message is displayed as warning to wear a mask, else mask is detcted on the face.
+Video captured is accessed frame by frame and face is detected using haarcascade_frontalface_default classifier, then for every face detected mouth is detected by using
+haarcascade_mcs_mouth classifier. If mouth is detected for the respective face then a message is displayed as warning to wear a mask, else assumed as mask is wore by the respective person.
